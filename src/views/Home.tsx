@@ -2,6 +2,7 @@ import { Input } from "@nextui-org/react";
 import searchIcon from "../assets/search-icon.png";
 import { Banner } from "../components/home/Banner";
 import { FastAccess } from "../components/home/FastAccess";
+import { Promos } from "../components/home/Promos";
 
 export const Home = () => {
   return (
@@ -9,6 +10,7 @@ export const Home = () => {
       <Input type="text" label="Buscar" placeholder="Ej: Ruta de la Cerveza..." endContent={<img className="w-9" src={searchIcon} />} />
       <Banner />
       <FastAccess />
+      <Promos />
     </body>
   );
 };
