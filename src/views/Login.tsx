@@ -14,7 +14,7 @@ export const Login = () => {
     const userNameDefault = "emprendedor"
     const passwordDefault = "1234"
     if (userNameDefault == username && passwordDefault == password) {
-      navigate("/")
+      navigate("/home")
     }
   };
 

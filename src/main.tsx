@@ -16,8 +16,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <NextUIProvider>
       <Router>
         <Routes>
-          <Route path="login" element={<Login />} />
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Login />} />
+          <Route path="home" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="rutas" element={<MapComponent />} />
