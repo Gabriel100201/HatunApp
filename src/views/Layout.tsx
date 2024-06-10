@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../components/layout/Header";
+import { NavMobile } from "../components/layout/NavMobile";
 import HatunLogo from "./../assets/HatunLogo.svg";
 
 export const Layout = () => {
@@ -11,6 +12,7 @@ export const Layout = () => {
         logoApp={HatunLogo}
       />
       <Outlet></Outlet>
+      <NavMobile></NavMobile>
     </section>
   );
 };

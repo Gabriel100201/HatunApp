@@ -8,7 +8,7 @@ interface props {
 
 export const Header = ({ name, urlImage, logoApp }: props) => {
   return (
-    <header className="w-full flex flex-col gap-3">
+    <header className="w-full flex flex-col gap-3 px-7 pt-3">
       <div className="w-full flex justify-between items-center">
       <div className="flex items-center gap-3">
           <img src={urlImage} alt="Avatar" className="w-9 filter rounded-full" />
