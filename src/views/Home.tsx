@@ -2,7 +2,7 @@ import searchIcon from "../assets/search-icon.png";
 import { Input } from "@nextui-org/react";
 import { Banner } from "../components/home/Banner";
 import { FastAccess } from "../components/home/FastAccess";
-import { Bests } from "../components/home/Bests";
+import { Promos } from "../components/home/Promos";
 
 export const Home = () => {
   return (
@@ -15,7 +15,7 @@ export const Home = () => {
       />
       <Banner />
       <FastAccess />
-      <Bests></Bests>
+      <Promos />
     </body>
   );
 };
