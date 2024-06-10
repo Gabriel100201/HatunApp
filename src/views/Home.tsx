@@ -6,7 +6,7 @@ import { Promos } from "../components/home/Promos";
 
 export const Home = () => {
   return (
-    <body className="flex flex-col py-5 gap-5 p-7">
+    <body className="flex flex-col py-5 gap-5 p-7 pb-20">
       <Input
         type="text"
         label="Buscar"

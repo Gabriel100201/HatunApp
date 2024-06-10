@@ -14,11 +14,12 @@ export const Button = ({ icon, url, children }: ButtonProps) => {
     navigate(url)
   }
   return (
-    <ThemeButton className="bg-gradient-to-br flex flex-col h-24 gap-2 from-primary-600 to-primary-900 text-white shadow-lg" onClick={handleClick}>
-      <span className="text-3xl">
-        {icon}
-      </span>
+    <ThemeButton
+      className="bg-gradient-to-br flex flex-col h-24 gap-2 from-primary-600 to-primary-900 text-white shadow-lg"
+      onClick={handleClick}
+    >
+      <span className="text-3xl">{icon}</span>
       <span>{children}</span>
     </ThemeButton>
-  )
+  );
 }
