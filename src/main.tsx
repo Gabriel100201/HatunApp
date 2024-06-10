@@ -19,7 +19,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/" element={<Login />} />
           <Route path="home" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="home" element={<Home />} />
             <Route path="rutas" element={<MapComponent />} />
             <Route path="place" element={<Place />} />
             <Route path="eventos" element={<Eventos />} />

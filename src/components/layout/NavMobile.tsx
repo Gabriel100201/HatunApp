@@ -8,7 +8,7 @@ export const NavMobile = () => {
   return (
     <nav className="w-full h-auto fixed bottom-0 z-50 border-t-[1px] bg-[#fefefe] border-black/20 px-12 py-0">
       <ul className="w-full flex justify-center items-center gap-12 py-1">
-        <Link to={"home"}>
+        <Link to={"/home"}>
           <li className="text-xl p-3 rounded-full flex justify-center items-center hover:bg-gray-200 transition-all">
             <FaHome />
           </li>

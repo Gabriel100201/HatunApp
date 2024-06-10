@@ -11,11 +11,14 @@ export const Login = () => {
 
   // Función para manejar el clic en el botón de ingresar
   const handleLogin = () => {
-    const userNameDefault = "emprendedor"
+    setTimeout(() => {
+
+      const userNameDefault = "emprendedor"
     const passwordDefault = "1234"
-    if (userNameDefault == username && passwordDefault == password) {
-      navigate("/home")
-    }
+      if (userNameDefault == username && passwordDefault == password) {
+        navigate("/home")
+      }
+    }, 500)
   };
 
   return (
