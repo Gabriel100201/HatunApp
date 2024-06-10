@@ -7,7 +7,7 @@ export const Layout = () => {
   return (
     <section>
       <Header
-        name="Gabriel"
+        name="Emprendedor"
         urlImage="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
         logoApp={HatunLogo}
       />

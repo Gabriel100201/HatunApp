@@ -1,5 +1,5 @@
 import { FaRegUser } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
+import { GiMountainRoad } from "react-icons/gi";
 import { FaHome } from "react-icons/fa";
 import { MdEvent } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ export const NavMobile = () => {
   return (
     <nav className="w-full h-auto fixed bottom-0 z-50 border-t-[1px] bg-[#fefefe] border-black/20 px-12 py-0">
       <ul className="w-full flex justify-center items-center gap-12 py-1">
-        <Link to={"/"}>
+        <Link to={"home"}>
           <li className="text-xl p-3 rounded-full flex justify-center items-center hover:bg-gray-200 transition-all">
             <FaHome />
           </li>
@@ -18,9 +18,9 @@ export const NavMobile = () => {
             <MdEvent />
           </li>
         </Link>
-        <Link to={"#search"}>
+        <Link to={"rutas"}>
           <li className="text-xl p-3 rounded-full flex justify-center items-center hover:bg-gray-200 transition-all">
-            <FaSearch />
+            <GiMountainRoad />
           </li>
         </Link>
         <Link to={"perfil"}>
