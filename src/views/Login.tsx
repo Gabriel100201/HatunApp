@@ -12,13 +12,17 @@ export const Login = () => {
   // Función para manejar el clic en el botón de ingresar
   const handleLogin = () => {
     setTimeout(() => {
+      const userNameDefault = "emprendedor";
+      const passwordDefault = "1234";
 
-      const userNameDefault = "emprendedor"
-    const passwordDefault = "1234"
-      if (userNameDefault == username && passwordDefault == password) {
-        navigate("/home")
+      // Elimina los espacios en blanco al inicio y al final de username y password
+      const trimmedUsername = username.trim();
+      const trimmedPassword = password.trim();
+
+      if (userNameDefault === trimmedUsername && passwordDefault === trimmedPassword) {
+        navigate("/home");
       }
-    }, 500)
+    }, 500);
   };
 
   return (
